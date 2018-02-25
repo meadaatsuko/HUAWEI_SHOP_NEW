@@ -1,0 +1,323 @@
+﻿div.shortcut{
+	display: block;
+	height: 30px;
+	min-width: 1200px;
+	border-bottom: rgb(237,237,237) solid 1px;
+	background-color: #fafafa;
+}
+div.layout{
+	width: 1200px;
+	height: 30px;
+	margin:0px auto;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: #a4a4a4;
+}
+li{
+	list-style: none;
+	font-size: 12px;
+	display: inline-block;
+	position: relative;
+}
+
+/* 左侧导航栏 */
+div.introduction{
+	position: absolute;
+	left: 0px;
+}
+div.introduction ul li{
+	line-height: 30px;
+}
+div.introduction ul li a{
+	padding: 0px 9px 0px 7px;
+	border-right: solid 1px #c8c8c8;
+}
+div.introduction ul li#honor a{
+	border: none;
+}
+div.introduction ul li#huawei a{
+	padding-left: 0px;
+}
+div.introduction ul li#V_code a{
+	border-right: none;
+}
+div.introduction ul li#soft_apply{
+	width: 87px;
+	height: 30px;
+	border:solid 1px #fafafa;
+	border-top: none;
+	border-bottom: none;
+}
+div.introduction ul li#soft_apply a{
+	padding-right: 30px;
+	border-left: 1px solid #c8c8c8;
+}
+div.introduction ul li#soft_apply span{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border:solid 4px transparent;
+	border-top: solid 4px #979797;
+	position: absolute;
+	right: 10px;
+	top: 13px;
+}
+div.introduction ul a:hover{
+	color: #ca151d;
+}
+div.introduction ul li#soft_apply:hover{
+	background-color: #fff;
+	border-left: solid 1px #ededed;
+	border-right: solid 1px #ededed;
+}
+div.introduction ul li#soft_apply:hover span{
+	display: block;
+	width: 0px;
+	height: 0px;
+	border:solid 4px transparent;
+	border-bottom: solid 4px #000;
+	position: absolute;
+	right: 10px;
+	top: 9px;
+}
+div.introduction ul li#soft_apply:hover a{
+	border-left: solid 1px #fff;
+	border-right: solid 1px #fff;
+}
+div.introduction ul li#soft_apply ul{
+	position: absolute;
+	z-index: 50;
+	background-color: #fff;
+	width: 77px;
+	height: 122px;
+	border: solid 1px #ededed;
+	border-top: solid 1px #fff;
+	padding-left: 10px;
+	left: -1px;
+	display: none;
+}
+div.introduction ul li#soft_apply:hover ul{
+	display: block;
+}
+div.introduction ul li#soft_apply ul li{
+	clear: left;
+}
+
+div.introduction ul li#soft_apply ul li a{
+	color: #a4a4a4;
+	border: none;
+	padding: 0px;
+}
+div.introduction ul li#soft_apply ul li:hover a{
+	color: #d4151d;
+}
+
+/* 右侧导航栏 */
+
+div.right_intro{
+	position: absolute;
+	right: 0px;
+}
+div.right_intro ul li ul{
+	position: absolute;
+}
+div.right_intro ul li.mobileV{
+	border-left: 1px solid #fafafa;
+	border-right: 1px solid #fafafa;
+	line-height: 30px;
+}
+div.right_intro ul li.mobileV:hover{
+	background-color: #fff;
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+div.right_intro ul li.mobileV:hover span{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	width: 0px;
+	height: 0px;
+	border: solid 4px transparent;
+	border-bottom: solid 4px #000;
+	position: absolute;
+	right: 7px;
+	top: 7px;
+}
+div.right_intro ul li a:hover{
+	color:#ca151d;
+}
+div.right_intro ul li.mobileV>a{
+	padding: 0px 24px 0px 9px;
+	border-right: 1px solid #c8c8c8;
+}
+div.right_intro ul li.mobileV:hover>a{
+	border-right: 1px solid #FFF;
+}
+div.right_intro ul li.mobileV span{
+	display: block;
+	width: 0px;
+	height: 0px;
+	border: solid 4px transparent;
+	border-top: solid 4px #979797;
+	position: absolute;
+	right: 7px;
+	top: 13px;
+}
+
+div.right_intro ul li.mobileV ul{
+	height: 212px;
+	width: 212px;
+	right:-1px;
+	top: 28px;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	z-index: 10;
+}
+div.right_intro ul li.mobileV:hover ul{
+	display: block;
+}
+div.right_intro ul li.mobileV ul li{
+	display: block;
+	width: 210px;
+	height: 106px;
+	border:solid 1px #ededed;
+	position: relative;
+}
+div.right_intro ul li.mobileV ul li#mobile{
+	border-bottom: none;
+	border-top: none;
+	background: url(../images/code_01.jpg) no-repeat 14px 16px;
+}
+div.right_intro ul li.mobileV ul li#mobile p{
+	font-size: 12px;
+	position: absolute;
+	top: 40px;
+	right:38px;
+}
+div.right_intro ul li.mobileV ul li#mobile p a{
+	color: #3a3a3a;
+}
+div.right_intro ul li.mobileV ul li#mobile p a:hover{
+	color: #ca151d;
+}
+div.right_intro ul li.mobileV ul li#mobile p#S{
+	font-size: 14px;
+	position: absolute;
+	right: 69px;
+	top: 20px;
+}
+div.right_intro ul li.mobileV ul li#mobile>a{
+	display: block;
+	width: 76px;
+	height: 76px;
+	position: absolute;
+	top: 16px;
+	left: 14px;
+}
+div.right_intro ul li.mobileV ul li#WeChat{
+	height: 104px;	
+	background: url(../images/code_02.jpg) no-repeat 14px 16px;	
+}
+div.right_intro ul li.mobileV ul li#WeChat p{
+	position: absolute;
+	right: 15px;
+	top: 38px;
+	font-size: 12px;
+}
+div.right_intro ul li.mobileV ul li#WeChat p a{
+	color: #3a3a3a;
+}
+div.right_intro ul li.mobileV ul li#WeChat p a:hover{
+	color: #ca151d;
+}
+div.right_intro ul li.mobileV ul li#WeChat p#W{
+	position: absolute;
+	right: 40px;
+	top: 18px;
+	font-size: 14px;
+}
+div.right_intro ul li.mobileV ul li#WeChat>a{
+	display: block;
+	width: 76px;
+	height: 76px;
+	position: absolute;
+	top: 16px;
+	left: 14px;	
+}
+div.right_intro ul li.more:hover{
+	background-color: #fff;
+}
+div.right_intro ul li.more a{
+	padding: 0px 25px 0px 8px;
+}
+div.right_intro ul li.more span{
+	display: block;
+	width: 0px;
+	height: 0px;
+	border: solid 4px transparent;
+	border-top: solid 4px #979797;
+	position: absolute;
+	right: 7px;
+	top: 6px;	
+}
+div.right_intro ul li.more:hover span{
+	display: block;
+	width: 0px;
+	height: 0px;
+	border: solid 4px transparent;
+	border-bottom: solid 4px #000;
+	position: absolute;
+	right: 7px;
+	top: 10px;		
+}
+div.right_intro ul li.more div.more_01 ul{
+	width: 73px;
+	height: 123px;
+	border: solid 1px #ededed;
+	border-top: none;
+	padding-left: 10px;
+	left: -2px;
+	top: 28px;
+	background-color: #fff;
+	display: none;
+	z-index: 10;
+}
+div.right_intro ul li.more:hover div.more_01 ul,div.right_intro ul li.more:hover div.more_02{
+	display: block;
+}
+div.right_intro ul li.more ul li{
+	display: block;
+	line-height: 30px;
+}
+div.right_intro ul li.more ul li a{
+	padding:0px;
+}
+div.right_intro ul li.more div.more_02{
+	position: absolute;
+	z-index: 30;
+	top: 0px;
+	left: -2px;
+	width: 74px;
+	height: 31px;
+	border-left: solid 1px #eaeaea;
+	border-right: solid 1px #eaeaea;
+	background-color: #fff;
+	padding-left: 9px;
+	display: none;
+}
+div.right_intro ul li.more div.more_02 a{
+	padding: 0px;
+}
+div.right_intro ul li.more div.more_02 i{
+	display: block;
+	width: 0px;
+	height: 0px;
+	border: solid 4px transparent;
+	border-bottom: solid 4px #000;
+	position: absolute;
+	right: 7px;
+	top: 0px;
+}

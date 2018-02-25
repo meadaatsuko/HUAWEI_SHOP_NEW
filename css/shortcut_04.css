@@ -1,0 +1,345 @@
+div.shortcut_04{
+	position: relative;
+	width: 1200px;
+	min-width: 1200px;
+	height: 78px;
+	border: solid 1px #eaeaea;
+	border-top: none;
+	background-color: #fff;
+	margin:0px auto;
+	padding-top: 19px;
+}
+div.login_01{
+	width: 266px;
+	height: 72px;
+	margin:0px 0px 0px 22px;
+	border-right: 1px solid #eaeaea;
+	float: left;
+}
+div.login_01 img{
+	display: block;
+	width: 59px;
+	height: 59px;
+	float: left;
+	margin-top: 6px;
+	margin-right: 19px;
+	float: left;
+}
+div.login_01 p{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+	line-height: 15px;
+}
+div.login_01 p a.login-right{
+	text-decoration: underline;
+	color: #000;
+}
+div.login_01 a.login-button{
+	display: block;
+	width: 58px;
+	height: 18px;
+	border: 1px solid #ca141d;
+	color: #ca141d;
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+	float: left;
+	margin-top: 8px;
+}
+div.login_01 a.login-button:hover{
+	color: #fff;
+	background-color: #ca141d;
+}
+div.login_01 a#new-sale{
+	margin-right: 13px;
+}
+
+
+div.specical{
+	float: left;
+}
+div.specical div{
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+div.specical div img{
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin:0px auto;
+	margin-top: 2px;
+}
+div.specical div a{
+	display: block;
+	font-size: 12px;
+	line-height: 1;
+	margin-top: 3px;
+	color: #3a3a3a;
+}
+div.specical div:hover a{
+	color: #ca151d;
+}
+
+div.support{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 306px;
+	height: 97px;
+	border-left: 1px solid #eaeaea;
+}
+div.support div.support_up{
+	height: 48px;
+	width: 100%;
+	text-align: center;
+	border-bottom: solid 1px #eaeaea;
+}
+div.support div.support_up a span{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 51px;
+	font:700 14px/48px arial;
+	color: #cd2029;
+	text-align: center;
+}
+div.support div.support_up div.text-limited{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 48px;
+	margin:0px 0px 0px 3px;
+	overflow: hidden;
+	text-align: left;
+}
+div.text-limited div.text-all{
+	position: relative;
+	width: 200px;
+	height: 288px;
+	animation:text-move 7s infinite;
+	-moz-animation:text-move 7s infinite; /* Firefox */
+	-webkit-animation:text-move 7s infinite; /* Safari and Chrome */
+	-o-animation:text-move 7s infinite; /* Opera */
+}
+}
+
+@keyframes text-move
+{
+0%   {top:0px;}
+20%  {top:-48px;}
+40%  {top:-96px;}
+60% {top:-144px;}
+80% {top:-192px;}
+100% {top:-240px;}
+}
+
+@-moz-keyframes text-move /* Firefox */
+{
+0%   {top:0px;}
+20%  {top:-48px;}
+40%  {top:-96px;}
+60% {top:-144px;}
+80% {top:-192px;}
+100% {top:-240px;}
+}
+
+@-webkit-keyframes text-move /* Safari and Chrome */
+{
+0%   {top:0px;}
+20%  {top:-48px;}
+40%  {top:-96px;}
+60% {top:-144px;}
+80% {top:-192px;}
+100% {top:-240px;}
+}
+
+@-o-keyframes text-move /* Opera */
+{
+0%   {top:0px;}
+20%  {top:-48px;}
+40%  {top:-96px;}
+60% {top:-144px;}
+80% {top:-192px;}
+100% {top:-240px;}
+}
+div.support div.support_up div span{
+	display: block;
+	width: 200px;
+	height: 48px;
+	font:normal 14px/48px arial;
+}
+div.support_up div span a{
+	color: #333;
+}
+div.support_up div span a:hover{
+	color: #ca151d;
+}
+div.support div.name_code_believe{
+	width: 100%;
+	height: 48px;
+	text-align: center;
+	white-space: nowrap;
+}
+div.name_code_believe span{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	padding-top: 18px;
+	vertical-align: middle;
+	color: #333;
+}
+div.name_code_believe span:hover{
+	color: #ca151d;
+}
+div.name_code_believe span img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right:5px;
+}
+
+div.shortcut_05{
+	width: 1200px;
+	height: 160px;
+	margin:0px auto;
+	margin-top:12px;
+	white-space: nowrap;
+}
+div.shortcut_05 span.short5{
+	display: inline-block;
+	width: 291px;
+	height: 160px;
+	margin-right: 12px;
+
+	transition: box-shadow 0.5s;
+	-moz-transition: box-shadow 0.5s; /* Firefox 4 */
+	-webkit-transition: box-shadow 0.5s; /* Safari 和 Chrome */
+	-o-transition: box-shadow 0.5s; /* Opera */
+}
+div.shortcut_05 span.short5:hover{
+	box-shadow: 0px 20px 30px #dedede;
+}
+div.shortcut_05 span.short5 a{
+	display: block;
+	height: 160px;
+}
+div.shortcut_05 span.short5 a img{
+	display: block;
+}
+div.shortcut_05 span.short5_right{
+	margin:0px;
+}
+
+div.warm_sale{
+	width: 1200px;
+	height: 628px;
+	margin:0px auto;
+	margin-top:30px;
+	font: 22px/22px arial;
+}
+div.warm_sale h2{
+	font: 22px/22px arial;
+	margin-bottom: 16px;
+}
+div.warm_sale ul{
+	width: 1200px;
+	height: 590px;
+}
+div.warm_sale ul li{
+	width: 232px;
+	height: 290px;
+	float: left;
+	margin-right: 10px;
+	background-color: #fff;
+	text-align: center;
+
+	transition: transform 1s,box-shadow 0.5s;
+	-moz-transition: transform 1s,box-shadow 0.5s; /* Firefox 4 */
+	-webkit-transition: transform 1s,box-shadow 0.5s; /* Safari 和 Chrome */
+	-o-transition: transform 1s,box-shadow 0.5s; /* Opera */
+}
+div.warm_sale ul li:hover{
+	transform:translateY(-3px);
+	-ms-transform:translateY(-3px); 	/* IE 9 */
+	-moz-transform:translateY(-3px); 	/* Firefox */
+	-webkit-transform:translateY(-3px); /* Safari 和 Chrome */
+	-o-transform:translateY(-3px); 	/* Opera */
+
+	box-shadow: 0px 5px 15px #d1d1d1;
+}
+div.warm_sale ul li a{
+	display: block;
+	width: 232px;
+	height: 256px;
+	padding-top: 34px;
+}
+div.warm_sale ul li:first-child a{
+	padding: 0px;
+}
+div.warm_sale ul li.warm_left{
+	height: 590px;
+}
+div.warm_sale ul li.warm_right{
+	margin-right: 0px;
+}
+div.warm_sale ul li.warm_bottom{
+	margin-bottom: 10px;
+}
+li.warmsale_list p.warmsale_img{
+	margin:0px auto;
+	width: 134px;
+	height: 134px;
+	position: relative;
+}
+li.warmsale_list p.warmsale_img img{
+	display: block;
+	width: 134px;
+	height: 134px;
+}
+li.warmsale_list p.warmsale_img span{
+	position: absolute;
+	display: block;
+	width: 48px;
+	height: 48px;
+	bottom: -15px;
+	right: -14px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	font-size: 14px;
+}
+li.warmsale_list p.warmsale_img span.warmsale{
+	background-color: #fdb610;
+}
+li.warmsale_list p.warmsale_img span.use_ticket{
+	background-color: #16abdf;
+}
+li.warmsale_list p.warmsale_img span.new_item{
+	background-color: #00db4b;
+}
+li.warmsale_list p.warmsale_img span.buy_give{
+	background-color: #fc5121;
+}
+li.warmsale_list p.warmsale_img span.special{
+	background-color: #ca141d;
+}
+li.warmsale_list h3.warmsale_title{
+	font: 14px/14px arial;
+	margin-top: 37px;
+	color: #3a3a3a;
+}
+li.warmsale_list p.warmsale_detail{
+	font: 12px/12px arial;
+	margin-top: 11px;
+	color: #a4a4a4;
+}
+li.warmsale_list p.prize_warmsale{
+	font: 14px/14px arial;
+	margin-top: 16px;
+	color: #cc0e11;
+}

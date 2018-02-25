@@ -1,0 +1,1081 @@
+div.adv_01{
+	width: 1200px;
+	height: 120px;
+	margin:0px auto;
+	margin-top: 25px;
+	overflow: hidden;
+	position: relative;
+}
+div.adv_01 ul{
+	position: absolute;
+	width: 90px;
+	height: 10px;
+	right: 122px;
+	top: 100px;
+	z-index: 10;
+}
+div.adv_01 ul li{
+	display: block;
+}
+div.adv_01 ul li span{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	float: left;
+	margin-right: 6px;
+	opacity: 0.6;
+
+	transition: background-color 300ms;
+	-moz-transition: background-color 300ms; /* Firefox 4 */
+    -webkit-transition: background-color 300ms; /* Safari 和 Chrome */
+    -o-transition: background-color 300ms; /* Opera */
+}
+div.adv_01 ul li span:hover{
+	background-color: #fd2727;
+}
+div.adv_01 ul li div{
+	display: none;
+}
+div.adv_01 ul li:first-child div{
+	display: block;
+}
+div.adv_01 ul li:last-child span{
+	margin-right: 0px;
+
+}
+div.adv_01_img{
+	position: absolute;
+	left: -988px;
+	top: -100px;
+	z-index: -1;
+}
+div.adv_01_img a{
+	display: block;
+}
+div.adv_01 ul li:hover div{
+	display: block;
+}
+
+div.mobile{
+	width: 1200px;
+	height: 748px;
+	margin: 0px auto;
+	margin-top: 28px;
+}
+div.mobile div.mobile_title{
+	height: 24px;
+	position: relative;
+	margin-bottom: 20px;
+}
+div.mobile_title h1{
+	display: inline;
+	font: 24px/24px arial;
+	margin-right: 37px;
+	vertical-align: middle;
+}
+div.mobile_title a{
+	margin-right: 20px;
+}
+div.mobile_title span{
+	font: 16px/16px arial;
+	padding-bottom: 5px;
+	vertical-align: middle;
+}
+div.mobile_title span:hover{
+	border-bottom: 2px solid #ca151d;
+	color: #ca151d;
+}
+div.mobile_title a:last-child{
+	position: absolute;
+	right: 0px;
+}
+div.mobile_title a:last-child span{
+	border-bottom: none;
+	font: 18px/18px arial;
+	padding:0;
+}
+div.mobile ul{
+	height: 704px;
+}
+div.mobile ul li{
+	float: left;
+	width: 291px;
+	height: 346px;
+	margin-right: 12px;
+	text-align: center;
+	background-color: #fff;
+
+	transition: box-shadow 1s,transform 1s;
+	-moz-transition: box-shadow 1s,transform 1s; /* Firefox 4 */
+    -webkit-transition: box-shadow 1s,transform 1s; /* Safari 和 Chrome */
+     -o-transition: box-shadow 1s,transform 1s; /* Opera */
+}
+div.mobile ul li:hover{
+	transform: translateY(-5px);
+
+	box-shadow: 0px 1px 15px #999;
+}
+div.mobile ul li:first-child img{
+	width: 291px;
+	height: 346px;
+	margin-top: 0px;
+}
+div.mobile ul li.mobile_right{
+	margin-right: 0px;
+}
+div.mobile ul li.mobile_top{
+	margin-bottom: 12px;
+}
+div.mobile ul li a{
+	display: block;
+	padding-top: 40px;
+	height: 306px;
+}
+div.mobile ul li:first-child a{
+	padding-top: 0px;
+}
+div.mobile ul li img{
+	display: block;
+	margin: 0px auto;
+	width: 160px;
+	height: 160px;
+}
+div.mobile ul li p.mobile_list_title{
+	font: 13px/18px arial;
+	margin-top: 50px;
+	color: #3a3a3a;
+}
+div.mobile ul li p.mobile_detail{
+	font: 12px/18px arial;
+	color: #a4a4a4;
+}
+div.mobile ul li p.mobile_prize{
+	font: 14px/34px arial;
+	color: #d60e11;
+}
+div.mobile ul li div.M_circle{
+	margin: 0px auto;
+	width: 160px;
+	height: 160px;
+	position: relative;
+}
+div.mobile ul li div.M_circle span{
+	position: absolute;
+	display: block;
+	width: 48px;
+	height: 48px;
+	bottom: -11px;
+	right: -6px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	background-color: red;
+	font-size: 14px;
+}
+div.mobile ul li.M_F div.M_circle span{
+	background-color: #16abdf;
+}
+div.mobile ul li.M_L div.M_circle span{
+	background-color: #fc5121;
+}
+div.mobile ul li.M_S div.M_circle span{
+	background-color: #ca141d;
+}
+
+div.notebook{
+	width: 1200px;
+	height: 390px;
+	margin: 0px auto;
+	margin-top: 28px;
+}
+div.notebook div.notebook_title{
+	height: 24px;
+	position: relative;
+	margin-bottom: 20px;
+}
+div.notebook_title h1{
+	display: inline;
+	font: 24px/24px arial;
+	margin-right: 37px;
+	vertical-align: middle;
+}
+div.notebook_title a{
+	margin-right: 20px;
+}
+div.notebook_title span{
+	font: 16px/16px arial;
+	padding-bottom: 5px;
+	vertical-align: middle;
+}
+div.notebook_title span:hover{
+	border-bottom: 2px solid #ca151d;
+	color: #ca151d;
+}
+div.notebook_title a:last-child{
+	position: absolute;
+	right: 0px;
+}
+div.notebook_title a:last-child span{
+	border-bottom: none;
+	font: 18px/18px arial;
+	padding:0;
+}
+div.notebook ul{
+	height: 346px;
+}
+div.notebook ul li{
+	float: left;
+	width: 291px;
+	height: 346px;
+	margin-right: 12px;
+	text-align: center;
+	background-color: #fff;
+
+	transition: box-shadow 1s,transform 1s;
+	-moz-transition: box-shadow 1s,transform 1s; /* Firefox 4 */
+    -webkit-transition: box-shadow 1s,transform 1s; /* Safari 和 Chrome */
+     -o-transition: box-shadow 1s,transform 1s; /* Opera */
+}
+div.notebook ul li:hover{
+	transform: translateY(-5px);
+	box-shadow: 0px 1px 15px #999;
+}
+div.notebook ul li:first-child img{
+	width: 291px;
+	height: 346px;
+	margin-top: 0px;
+}
+div.notebook ul li.notebook_right{
+	margin-right: 0px;
+}
+div.notebook ul li img{
+	display: block;
+	margin: 0px auto;
+	width: 160px;
+	height: 160px;
+}
+div.notebook ul li p.notebook_list_title{
+	font: 13px/18px arial;
+	margin-top: 50px;
+	color: #3a3a3a;
+}
+div.notebook ul li p.notebook_detail{
+	font: 12px/18px arial;
+	color: #a4a4a4;
+}
+div.notebook ul li p.notebook_prize{
+	font: 14px/34px arial;
+	color: #d60e11;
+}
+div.notebook ul li a{
+	display: block;
+	padding-top: 40px;
+	height: 306px;
+}
+div.notebook ul li:first-child a{
+	padding-top: 0px;
+}
+div.notebook ul li div.N_circle{
+	margin: 0px auto;
+	width: 160px;
+	height: 160px;
+	position: relative;
+}
+div.notebook ul li div.N_circle span{
+	position: absolute;
+	display: block;
+	width: 48px;
+	height: 48px;
+	bottom: -11px;
+	right: -6px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	background-color: #00db4b;
+	font-size: 14px;
+}
+div.notebook ul li.N_MZ div.N_circle span{
+	background-color: #fc5121;
+}
+
+div.ipad{
+	margin: 0px auto;
+	margin-top: 28px;
+	width: 1200px;
+	height: 748px;
+}
+div.ipad div.ipad_title{
+	height: 24px;
+	margin-bottom: 20px;
+}
+div.ipad div.ipad_title h1{
+	font: 24px/24px arial;
+	display: inline;
+	margin-right: 37px;
+	vertical-align: middle;
+}
+div.ipad div.ipad_title a span{
+	font: 16px/16px arial;
+	padding-bottom: 5px;
+}
+div.ipad div.ipad_title a span:hover{
+	color: #cc0e11;
+	border-bottom: 2px solid;
+}
+div.ipad div.ipad_title a{
+	margin-right: 20px;
+	vertical-align: middle;
+}
+div.ipad div.ipad_title a:last-child{
+	float: right;
+
+}
+div.ipad div.ipad_title a:last-child span{
+	font: 18px/18px arial;
+}
+div.ipad div.ipad_title a:last-child span:hover{
+	border-bottom: none;
+}
+div.ipad ul{
+	height: 704px;
+}
+div.ipad ul li{
+	width: 291px;
+	height: 346px;
+	float: left;
+	text-align: center;
+	background-color: #fff;
+	margin-right: 12px;
+
+	transition: box-shadow 1s,transform 1s;
+	-moz-transition: box-shadow 1s,transform 1s; /* Firefox 4 */
+    -webkit-transition: box-shadow 1s,transform 1s; /* Safari 和 Chrome */
+     -o-transition: box-shadow 1s,transform 1s; /* Opera */
+}
+div.ipad ul li:hover{
+	transform: translateY(-5px);
+	box-shadow: 0px 1px 15px #999;
+}
+div.ipad ul li.ipad_right{
+	margin-right: 0px;
+}
+div.ipad ul li.ipad_top{
+	margin-bottom: 12px;
+}
+
+div.ipad ul li img{
+	display: block;
+	width: 160px;
+	height: 160px;
+}
+div.ipad ul li a{
+	display: block;
+	height: 306px;
+	padding-top: 40px;
+}
+div.ipad ul li:first-child a{
+	padding-top: 0px;
+}
+div.ipad div.P_circle{
+	width: 160px;
+	margin: 160px;
+	position: relative;
+	margin: 0px auto;
+}
+div.P_circle span{
+	position: absolute;
+	bottom: -11px;
+	right: -6px;
+	display: block;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background-color: #333;
+	color: #fff;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+}
+div.ipad ul li a>img{
+	margin: 0px auto;
+}
+div.ipad ul li:first-child img{
+	width: 291px;
+	height: 346px;
+	margin-top: 0px;
+}
+div.P_F span{
+	background-color: #16abdf;
+}
+div.P_N span{
+	background-color: #00db4b;
+}
+div.P_P span{
+	background-color: #fc3784;
+}
+div.P_S span{
+	background-color: #fdb610;
+}
+div.ipad ul li p.ipad_list_title{
+	font: 13px/13px arial;
+	color: #3a3a3a;
+	margin-top: 52px;
+}
+div.ipad ul li p.ipad_detail{
+	font: 12px/24px arial;
+}
+div.ipad ul li p.ipad_prize{
+	font: 14px/14px arial;
+	color: #cc0e11;
+	margin-top: 6px;
+}
+
+/*  智能穿戴 */
+
+div.watch{
+	width: 1200px;
+	height: 750px;
+	margin: 0px auto;
+	margin-top: 27px;
+}
+div.watch div.watch_title{
+	height: 24px;
+	line-height: 24px;
+	font-size: 24px;
+	position: relative;
+	margin-bottom: 20px;
+}
+div.watch_title h1{
+	font:24px/24px arial;
+	display: inline;
+	margin-right: 37px;
+}
+div.watch_title span{
+	margin-right: 19px;
+	font: 16px/24px arial;
+	vertical-align: top;
+}
+div.watch_title span:last-child{
+
+	vertical-align: top;
+	position: absolute;
+	right: 15px;
+}
+div.watch_title span:last-child a{
+	font:18px/24px arial;
+	color: #666;
+	padding-bottom: 0px;
+}
+div.watch_title span:last-child a:hover{
+	border-bottom: none;
+}
+div.watch_title span a{
+	font-size: 16px;
+	line-height: 24px;
+	vertical-align: top;
+	padding-bottom: 4px;
+}
+div.watch_title span a:hover{
+	color: #ca151d;
+	border-bottom: 2px solid #ca151d;
+}
+div.watch div.watch_content{
+	height: 704px;
+}
+div.watch_content ul{
+	width: 100%;
+	height: 100%;
+}
+div.watch_content ul li{
+	width: 291px;
+	height: 346px;
+	float: left;
+	margin-right: 12px;
+	background: #fff;
+	text-align: center;
+
+	transition: transform 1s,box-shadow 1s;
+}
+div.watch_content ul li a{
+	display: block;
+	height: 306px;
+	padding-top: 40px;
+}
+div.watch_content ul li:first-child a{
+	padding-top: 0px;
+}
+div.watch_content ul li:hover{
+	transform: translateY(-5px);
+	box-shadow: 0px 5px 10px #ccc;
+}
+div.watch_content ul li.right{
+	margin-right: 0px;
+}
+div.watch_content ul li.top{
+	margin-bottom: 12px;
+}
+div.watch_img{
+	width: 160px;
+	height: 160px;
+	margin: 0px auto;
+	position: relative;
+	margin-bottom: 51px;
+}
+div.watch_img img{
+	width: 160px;
+	height: 160px;
+}
+div.watch_img span{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	z-index: 1;
+	right: 13px;
+	bottom: -15px;
+	background: #666;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	font-size: 14px;
+}
+div.watch_img span.first{
+	background: #16abdf;
+}
+div.watch_img span.new{
+	background: #00db4b;
+}
+div.watch_img span.sale{
+	background: #fc3784;
+}
+div.watch_img span.free{
+	background: #00db4b;
+}
+div.watch_content li p.watch_title{
+	font:14px/14px arial;
+	color: #3a3a3a;
+}
+div.watch_content li p.watch_detail{
+	font:12px/24px arial;
+	color: #a4a4a4;
+}
+div.watch_content li p.watch_prize{
+	font:15px/28px arial;
+	color: #cc0e11;
+}
+
+/* 智能家居 */
+
+div.product_display{
+	width: 1200px;
+	height: 748px;
+	margin: 0px auto;
+	margin-top: 28px;
+}
+div.Brand_Attchment{
+	margin-top: 43px;
+}
+div.product_display div.product_display_Title{
+	width: 100%;
+	height: 24px;
+	font-size: 24px;
+	line-height: 24px;
+	position: relative;
+}
+div.product_display_Title h1{
+	display: inline;
+	vertical-align: top;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: arial;
+	margin-right: 38px;
+	font-weight: normal;
+}
+div.product_display_Title span{
+		font:16px/24px arial;
+	margin-right: 20px;
+	vertical-align: top;
+}
+div.product_display_Title span a{
+	font:16px/24px arial;
+	vertical-align: top;
+	padding-bottom: 5px;
+}
+div.product_display_Title span a:hover{
+	color: #ca151d;
+	border-bottom: 2px solid #ca151d;
+}
+div.product_display_Title span:last-child{
+	position:absolute;
+	right: 16px; 
+}
+div.product_display_Title span:last-child a{
+	color: #666;
+	font-size: 18px;
+	padding-bottom: 0px;
+}
+div.product_display_Title span:last-child a:hover{
+	border:none;
+	color: #ca151d;
+}
+div.product_display_Content{
+	margin-top: 20px;
+	width: 100%;
+	height: 704px;
+}
+div.product_display_Content li{
+	width: 291px;
+	height: 346px;
+	float: left;
+	background: #fff;
+	margin-right: 12px;
+	text-align: center;
+	transition: 1s transform, 1s box-shadow;
+}
+div.product_display_Content li:hover{
+	transform: translateY(-5px);
+
+	box-shadow: 0px 5px 5px #ccc;
+}
+div.product_display_Content li.right{
+	margin-right: 0px;
+}
+div.product_display_Content li.top{
+	margin-bottom: 12px;
+}
+div.product_display_Content li:first-child{
+	width: 594px;
+}
+div.product_display_Content li:first-child img{
+	width: 594px;
+	height: 346px;
+}
+div.product_display_Content li a{
+	display: block;
+	padding-top: 40px;
+	height: 306px;
+}
+div.product_display_Content li:first-child a{
+	padding-top: 0px;
+	height: 346px;
+}
+div.product_display_Content div.product_display_img{
+	width: 160px;
+	height: 160px;
+	margin:0px auto;
+	margin-bottom: 51px;
+	position: relative;
+}
+div.product_display img{
+	display: block;
+	width: 160px;
+	height: 160px;
+}
+div.product_display_img span{
+	position: absolute;
+	bottom: -15px;
+	right: -13px;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	z-index: 1;
+	background: #666;
+	color: #fff;
+	line-height: 48px;
+	text-align: center;
+	font-size: 14px;
+}
+div.product_display_img span.special{
+	background-color: #ca141d;
+}
+div.product_display_img span.first{
+	background-color: #16abdf;
+}
+div.product_display_img span.new{
+	background-color: #00db4b;
+}
+div.product_display_img span.hot_sale{
+	background-color: #fdb610;
+}
+div.product_display_Content li p.PD_Name{
+	font:14px/14px arial;
+	color: #3a3a3a;
+}
+div.product_display_Content li p.PD_Detail{
+	font:12px/24px arial;
+	color: #a4a4a4;
+}
+div.product_display_Content li p.PD_Prize{
+	font:15px/28px arial;
+	color: #cc0e11;
+}
+
+/* 产品列表 */
+
+div.speical_release{
+	width: 1200px;
+	height: 290px;
+	margin: 0px auto;
+	padding-top: 12px;
+	overflow: hidden;
+	position: relative;
+}
+div.top_release{
+	padding-top: 28px;
+	height: 340px;
+}
+div.top_release div.side_L,div.top_release div.side_R{
+	top: 182px;
+}
+div.top_release h1{
+	font-size: 24px;
+	line-height: 24px;
+	font-family: arial;
+	font-weight: normal;
+	margin-bottom: 15.5px;
+}
+div.speical_release_list{
+	width: 2627px;
+	height: 290px;
+	white-space: nowrap;
+}
+div.last_list div.speical_release_list{
+	width: 2408px;
+}
+div.speical_release_list li{
+	width: 218px;
+	height: 290px;
+	float: left;
+	border-right: 1px solid #f5f5f5;
+
+	background-color: #fff;
+	text-align: center;
+	transition: box-shadow 1s,transform 1s;
+}
+div.speical_release_list li a{
+	display: block;
+	height: 251px;
+	width: 100%;
+	padding-top: 39px;
+}
+div.speical_release_list li:hover{
+	box-shadow: 0px 3px 10px #ccc;
+	transform: translateY(-5px);
+}
+div.speical_release_list li:last-child{
+	border-right: none;
+}
+div.side_L{
+	position: absolute;
+	left: 0px;
+	top: 121px;
+	z-index: 10;
+	width: 22px;
+	height: 75px;
+	background:rgba(153,153,153,0.2) url(../images/speical_release/icon2.png) no-repeat; 
+	background-position: -72px 0px;
+	background-size: 11px 16px;
+	cursor: pointer;
+}
+div.side_L i,div.side_R i{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 11px;
+	height: 15px;
+	margin:auto;
+	background: url(../images/speical_release/icon2.png) no-repeat;
+	background-position: -72px 0px;
+}
+div.side_R i{
+	background-position: -82px 0px;
+}
+div.side_R{
+	position: absolute;
+	right: 0px;
+	top: 121px;
+	z-index: 10;
+	width: 22px;
+	height: 75px;
+	background:rgba(153,153,153,0.2);
+	cursor: pointer;
+}
+div.side_L:hover{
+	background:rgba(153,153,153,0.9);
+}
+div.side_R:hover{
+	background:rgba(153,153,153,0.9);
+}
+div.SR_img{
+	width: 134px;
+	height: 134px;
+	margin:0px auto;
+	margin-bottom: 30px;
+	position: relative;
+}
+div#ox_usb{
+	margin-bottom: 10px;
+} 
+div.SR_img img{
+	width: 134px;
+	height: 134px;
+	display: block;
+}
+div.SR_img span{
+	position: absolute;
+	bottom: -10px;
+	right: -6px;
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	background: #ccc;
+	font-size: 14px;
+}
+div.SR_img span.spec{
+	background: #fdb610;
+}
+div.SR_img span.new{
+	background: #00db4b;
+}
+div.SR_img span.free{
+	background: #00db4b;
+}
+div.SR_img span.hot_sale{
+	background: #fdb610;
+}
+div.SR_img span.hot{
+	background: #fdb610;
+}
+div.SR_img span.first{
+	background:#16abdf;
+}
+div.SR_img span.spec_sale{
+	background:#fc3784;
+}
+div.speical_release_list p.Name{
+	font:14px/21px arial;
+	color: #3a3a3a;
+	width: 13em;
+	white-space: normal;
+	margin: 0px auto;
+}
+div.speical_release_list p.Detail{
+	font:12px/24px arial;
+	color: #a4a4a4;
+}
+div.speical_release_list p.prize{
+	font:14px/28px arial;
+	color: #cc0e11;
+}
+
+div.last_adv{
+	width: 1200px;
+	height: 120px;
+	margin:0px auto;
+	margin-top: 35px;
+	margin-bottom: 65px;
+}
+div.last_adv a,div.last_adv img{
+	display: block;
+}
+
+div.footer{
+	width: 100%;
+	height: 479px;
+}
+div.footer div.sale_after{
+	width: 100%;
+	height: 359px;
+	background-color: #f0f0f0;
+}
+div.sale_after div.service{
+	width: 1200px;
+	height: 141px;
+	margin:0px auto;
+	border-bottom: 1px solid #e8e8e8;
+}
+div.service div.service_item{
+	width: 300px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+div.service_item span.service_icon{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin:auto 0px;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	background: url(../images/footer/1.png) no-repeat;
+	background-position: 0px -151px;
+}
+div.service_item #seven_day{
+	background-position: -94px -151px;
+}
+div.service_item #free_move{
+	background-position: -141px -151px;
+}
+div.service_item #nation_protect{
+	background-position: -47px -151px;
+}
+div.service_item span.service_detail{
+	font-size: 18px;
+	line-height: 141px;
+	color: #333;
+	font-family: arial;
+	margin-left: 62px;
+}
+
+div.about_us{
+	width: 1200px;
+	height: 187px;
+	padding-top: 30px;
+	margin:0px auto;
+}
+div.about_us div.about_us_item{
+	width: 157px;
+	height: 100%;
+	float: left;
+	font: 12px/12px arial;
+}
+div.about_us div.about_us_item:last-child{
+	width: 215px;
+	height: 168px;
+	padding-left: 40px;
+	border-left: 1px solid #ebebeb;
+}
+div.about_us div.about_us_item:last-child h3{
+	font-size: 24px;
+	line-height: 24px;
+	margin-top: 18px;
+	margin-bottom: 12px;
+}
+div.about_us div.about_us_item:last-child p{
+	line-height: 12px;
+	color: #666;
+	margin-bottom: 16.5px;
+}
+div.about_us div.about_us_item:last-child a{
+	display: block;
+	width: 161px;
+	height: 35px;
+	border-radius: 4px;
+	background-color: #fff;
+	color: #990000;
+	border:1px solid #ddd;
+	line-height: 35px;
+	font-size: 14px;
+	text-align: center;
+}
+div.about_us div.about_us_item:last-child a i{
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	vertical-align: text-bottom;
+	background: transparent;
+	background: url(../images/footer/1.png) no-repeat;
+	background-position: -101px -23px;
+	margin-right: 12px;
+}
+div.about_us div.about_us_item:last-child a:last-child{
+	margin-top: 10px;
+}
+div.about_us div.about_us_item:last-child a:last-child i{
+	width: 20px;
+	height: 18px;
+	background-image: url(../images/speical_release/icon2.png);
+	background-repeat: no-repeat;
+	background-position: -383px -1px;
+}
+div.about_us div.about_us_item i{
+	display: block;
+	width: 22px;
+	height: 2px;
+	background-color: #a8a8a8;
+}
+div.about_us_item h3{
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 15px;
+	font-weight: normal;
+	margin-bottom: 16px;
+	color: #3a3a3a;
+}
+div.about_us_item p{
+	font-size: 12px;
+	line-height: 24px;
+}
+div.about_us_item p a{
+	color: #666;
+}
+div.about_us_item p a:hover{
+	color: #ca141d;
+}
+
+div.contact_us{
+	width: 100%;
+	height: 120px;
+	background-color: #e6e6e6;
+}
+div.contact_us div.contact_us_center{
+	position: relative;
+	width: 1083px;
+	height: 94px;
+	padding-left: 117px;
+	margin:0px auto;
+	padding-top: 26px;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: arial;
+	color: #a4a4a4;
+}
+div.contact_us_center span,div.contact_us_center a{
+	white-space: pre;
+}
+div.contact_us_center a:hover{
+	color: #ca151d;
+}
+div.contact_us_center a.footer_LOGO{
+	width: 79px;
+	height: 16px;
+	position: absolute;
+	top: 46px;
+	left: 0px;
+	background:url(../images/footer/1.png) no-repeat;
+	background-position: -101px -45px;
+}
+div.footer_right{
+	width: 366px;
+	height: 24px;
+	position: absolute;
+	right: 0px;
+	top: 42px;
+}
+div.footer_right span{
+	display: inline-block;
+	height: 24px;
+	margin-right: 6px;
+}
+div.footer_right span:last-child{
+	margin-right: 0px;
+}
+div.footer_right span a{
+	display: block;
+	height: 24px;
+}
+div.footer_right span a img{
+	display: block;
+	height: 24px;
+}

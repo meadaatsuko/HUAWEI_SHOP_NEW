@@ -1,0 +1,40 @@
+div.shortcut_02{
+	min-width: 1200px;
+	height: 42px;
+	background-color: #fff;
+}
+div.layout_01{
+	width: 1200px;
+	height: 42px;
+	margin: 0px auto;
+}
+div.allgoods{
+	display: inline-block;
+	width: 240px;
+	height: 42px;
+	position: relative;
+	text-align: left;
+	line-height: 42px;
+	padding-left: 15px;
+	font-size: 18px;
+	border-left: solid 1px #eaeaea;
+	border-right: solid 1px #eaeaea;
+}
+div.layout_01 ul{
+	display: inline-block;
+	position: relative;
+	left: -5px;
+}
+div.layout_01 ul li{
+	font-size: 16px;
+	margin-left: 50px;
+	text-align: center;
+}
+div.layout_01 ul li a{
+	color: #3a3a3a;
+	padding-bottom: 1px;
+	border-bottom: 3px solid #fff;
+}
+div.layout_01 ul li a:hover{
+	border-bottom: 3px solid #ca151d;
+}
